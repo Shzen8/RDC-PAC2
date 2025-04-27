@@ -1,9 +1,10 @@
-<http://www.owl-ontologies.com/turi#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/elements/1.1/crator> "Sergi Oliver Marti" .
-<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/elements/1.1/title> "Ontology of Intelligent Tourism and Recommendations" .
-<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
-<http://www.owl-ontologies.com/turi#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
-<http://www.owl-ontologies.com/turi#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/2002/07/owl#versionIRI> <https://shzen8.github.io/RDC-PAC2/0.0.1> .
+<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/elements/1.1/creator> "Sergi Oliver Marti" .
+<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/elements/1.1/title> "Ontology of Intelligent Tourism and Recommendations" .
+<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://shzen8.github.io/RDC-PAC2/> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 # 
 # 
 # #################################################################
@@ -16,6 +17,9 @@
 # http://purl.org/dc/elements/1.1/crator
 <http://purl.org/dc/elements/1.1/crator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -27,6 +31,24 @@
 # 
 # http://www.w3.org/2002/07/owl#versionInfo
 <http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#argument1
+<http://www.w3.org/2003/11/swrl#argument1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#argument2
+<http://www.w3.org/2003/11/swrl#argument2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#body
+<http://www.w3.org/2003/11/swrl#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#classPredicate
+<http://www.w3.org/2003/11/swrl#classPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#head
+<http://www.w3.org/2003/11/swrl#head> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/11/swrl#propertyPredicate
+<http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/mod#createdWith
 <https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -521,6 +543,33 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.owl-ontologies.com/turi#Tramvia> <http://www.w3.org/2000/01/rdf-schema#comment> "A tram service operating in Toledo, providing public transportation within the city"@en .
 <http://www.owl-ontologies.com/turi#Tramvia> <http://www.w3.org/2000/01/rdf-schema#label> "Tramvia" .
 # 
+_:genid11 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument2> "Japanese" .
+_:genid11 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#restaurant_cuisine_type> .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid12 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Japanese> .
+_:genid13 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid13 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Hotel> .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid14 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Restaurant> .
+_:genid15 <http://www.w3.org/2003/11/swrl#body> _:genid16 .
+_:genid15 <http://www.w3.org/2003/11/swrl#head> _:genid17 .
+_:genid18 <http://www.w3.org/2003/11/swrl#body> _:genid19 .
+_:genid18 <http://www.w3.org/2003/11/swrl#head> _:genid20 .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument2> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid21 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#hotel_stars> .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Luxury> .
+_:genid23 <http://www.w3.org/2003/11/swrl#body> _:genid24 .
+_:genid23 <http://www.w3.org/2003/11/swrl#head> _:genid25 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument2> "Metro" .
+_:genid26 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#transport_type> .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Metro> .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid28 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Transport> .
 # 
 # 
 # #################################################################
@@ -542,103 +591,25 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
-_:genid11 <http://www.w3.org/2002/07/owl#members> _:genid17 .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Transport> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Restaurant> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Hotel> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Event> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#City> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Attraction> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-# 
-# 
-# 
-# #################################################################
-# #
-# #    Rules
-# #
-# #################################################################
-# 
-# 
-<urn:swrl:var#h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-<urn:swrl:var#t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid18 <http://www.w3.org/2003/11/swrl#body> _:genid21 .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
-_:genid20 <http://www.w3.org/2003/11/swrl#argument2> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid20 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid20 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#hotel_stars> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
-_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Hotel> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid18 <http://www.w3.org/2003/11/swrl#head> _:genid23 .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
-_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid24 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Luxury> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid25 <http://www.w3.org/2003/11/swrl#body> _:genid28 .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
-_:genid27 <http://www.w3.org/2003/11/swrl#argument2> "Japanese" .
-_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid27 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#restaurant_cuisine_type> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
-_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Restaurant> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid25 <http://www.w3.org/2003/11/swrl#head> _:genid30 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid29 <http://www.w3.org/2002/07/owl#members> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
-_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid31 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Japanese> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
-_:genid32 <http://www.w3.org/2003/11/swrl#body> _:genid35 .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
-_:genid34 <http://www.w3.org/2003/11/swrl#argument2> "Metro" .
-_:genid34 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid34 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#transport_type> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
-_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid36 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Transport> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
-_:genid32 <http://www.w3.org/2003/11/swrl#head> _:genid37 .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
-_:genid38 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid38 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Metro> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Transport> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Restaurant> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Hotel> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Event> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#City> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.owl-ontologies.com/turi#Attraction> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -6,8 +6,9 @@
     "title" : {
       "undefined" : "Ontology of Intelligent Tourism and Recommendations"
     },
-    "iri" : "http://www.owl-ontologies.com/turi#",
+    "iri" : "https://shzen8.github.io/RDC-PAC2/",
     "version" : "0.0.1",
+    "author" : [ "Sergi Oliver Marti" ],
     "other" : {
       "license" : [ {
         "identifier" : "license",
@@ -15,8 +16,8 @@
         "value" : "https://creativecommons.org/licenses/by/4.0/",
         "type" : "label"
       } ],
-      "crator" : [ {
-        "identifier" : "crator",
+      "creator" : [ {
+        "identifier" : "creator",
         "language" : "undefined",
         "value" : "Sergi Oliver Marti",
         "type" : "label"
@@ -46,7 +47,7 @@
     "id" : "0",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "2",
+    "id" : "3",
     "type" : "owl:Class"
   }, {
     "id" : "9",
@@ -82,7 +83,7 @@
     "id" : "21",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "3",
+    "id" : "5",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "22",
@@ -100,7 +101,7 @@
     "id" : "36",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "35",
+    "id" : "32",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "40",
@@ -109,7 +110,7 @@
     "id" : "43",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "32",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "58",
@@ -121,10 +122,10 @@
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "12",
+    "id" : "55",
     "type" : "owl:Class"
   }, {
-    "id" : "55",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -154,16 +155,16 @@
     "id" : "82",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "33",
+    "id" : "35",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "53",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "49",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
     "id" : "65",
@@ -218,7 +219,8 @@
     "comment" : {
       "en" : "A populated area with administrative boundaries"
     },
-    "id" : "2"
+    "attributes" : [ "external" ],
+    "id" : "3"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Event",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -250,6 +252,7 @@
     "comment" : {
       "en" : "An organized public or private occurrence"
     },
+    "attributes" : [ "external" ],
     "id" : "9"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Hotel",
@@ -282,6 +285,7 @@
     "comment" : {
       "en" : "A building offering lodging accommodations for travelers"
     },
+    "attributes" : [ "external" ],
     "id" : "7"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Bus",
@@ -294,8 +298,9 @@
     "comment" : {
       "en" : "A road vehicle designed to carry many passengers"
     },
+    "attributes" : [ "external" ],
     "id" : "14",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -314,6 +319,7 @@
     "comment" : {
       "en" : "An event focused on musical performances"
     },
+    "attributes" : [ "external" ],
     "id" : "10",
     "superClasses" : [ "9" ]
   }, {
@@ -361,7 +367,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "3",
+    "id" : "5",
     "label" : {
       "IRI-based" : "string"
     }
@@ -376,6 +382,7 @@
     "comment" : {
       "en" : "A natural attraction consisting of a sandy or pebbly shore"
     },
+    "attributes" : [ "external" ],
     "id" : "22",
     "superClasses" : [ "23" ]
   }, {
@@ -409,7 +416,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "35",
+    "id" : "32",
     "label" : {
       "IRI-based" : "integer"
     }
@@ -458,7 +465,8 @@
     "comment" : {
       "en" : "An establishment where meals are prepared and served to customers"
     },
-    "id" : "32"
+    "attributes" : [ "external" ],
+    "id" : "34"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Museum",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -470,6 +478,7 @@
     "comment" : {
       "en" : "An institution that collects and displays objects of historical, scientific, or artistic value"
     },
+    "attributes" : [ "external" ],
     "id" : "58",
     "superClasses" : [ "23" ]
   }, {
@@ -490,21 +499,9 @@
     "comment" : {
       "en" : "A car licensed to transport passengers in return for payment"
     },
+    "attributes" : [ "external" ],
     "id" : "48",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.owl-ontologies.com/turi#Luxury",
-    "baseIri" : "http://www.owl-ontologies.com/turi",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Luxury",
-      "en" : "Luxury"
-    },
-    "comment" : {
-      "en" : "A hotel offering high-end accommodations and premium services"
-    },
-    "id" : "12",
-    "superClasses" : [ "7" ]
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Metro",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -516,8 +513,23 @@
     "comment" : {
       "en" : "An underground rapid transit system in an urban area"
     },
+    "attributes" : [ "external" ],
     "id" : "55",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/turi#Luxury",
+    "baseIri" : "http://www.owl-ontologies.com/turi",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Luxury",
+      "en" : "Luxury"
+    },
+    "comment" : {
+      "en" : "A hotel offering high-end accommodations and premium services"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "7" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#integer",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -543,8 +555,9 @@
     "comment" : {
       "en" : "A restaurant specializing in Korean cuisine"
     },
+    "attributes" : [ "external" ],
     "id" : "51",
-    "superClasses" : [ "32" ]
+    "superClasses" : [ "34" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -590,7 +603,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
+    "id" : "35",
     "label" : {
       "IRI-based" : "string"
     }
@@ -605,8 +618,23 @@
     "comment" : {
       "en" : "A structure build to commemorate persons or events"
     },
+    "attributes" : [ "external" ],
     "id" : "53",
     "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/turi#Japanese",
+    "baseIri" : "http://www.owl-ontologies.com/turi",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Japanese",
+      "en" : "Japanese"
+    },
+    "comment" : {
+      "en" : "A restaurant specializing in Japanese cuisine"
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "34" ]
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Transport",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -638,20 +666,8 @@
     "comment" : {
       "en" : "A system or means of conveying people or goods from place to place"
     },
-    "id" : "5"
-  }, {
-    "iri" : "http://www.owl-ontologies.com/turi#Japanese",
-    "baseIri" : "http://www.owl-ontologies.com/turi",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Japanese",
-      "en" : "Japanese"
-    },
-    "comment" : {
-      "en" : "A restaurant specializing in Japanese cuisine"
-    },
-    "id" : "49",
-    "superClasses" : [ "32" ]
+    "attributes" : [ "external" ],
+    "id" : "2"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Train",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -663,8 +679,9 @@
     "comment" : {
       "en" : "A series of connected vehicles traveling on railways to transport passengers or goods"
     },
+    "attributes" : [ "external" ],
     "id" : "65",
-    "superClasses" : [ "5" ]
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Cultural",
     "baseIri" : "http://www.owl-ontologies.com/turi",
@@ -676,6 +693,7 @@
     "comment" : {
       "en" : "An event celebrating cultural expressions like art, dance, or traditions"
     },
+    "attributes" : [ "external" ],
     "id" : "11",
     "superClasses" : [ "9" ]
   }, {
@@ -689,6 +707,7 @@
     "comment" : {
       "en" : "A hotel located in a vacation area offering extensive recreational facilities"
     },
+    "attributes" : [ "external" ],
     "id" : "13",
     "superClasses" : [ "7" ]
   }, {
@@ -722,6 +741,7 @@
     "comment" : {
       "en" : "A place that draws visitors interest"
     },
+    "attributes" : [ "external" ],
     "id" : "23"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#Mexican",
@@ -734,15 +754,16 @@
     "comment" : {
       "en" : "A restaurant specializing in Mexican cuisine"
     },
+    "attributes" : [ "external" ],
     "id" : "50",
-    "superClasses" : [ "32" ]
+    "superClasses" : [ "34" ]
   } ],
   "property" : [ {
     "id" : "1",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "4",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "6",
     "type" : "owl:datatypeProperty"
@@ -762,7 +783,7 @@
     "id" : "31",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "34",
+    "id" : "33",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "37",
@@ -919,32 +940,32 @@
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "http://www.owl-ontologies.com/turi#city_location",
-    "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "3",
-    "label" : {
-      "IRI-based" : "city_location",
-      "en" : "city_location"
-    },
-    "domain" : "2",
-    "comment" : {
-      "undefined" : "The geographical coordinates associated with a city"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "1"
-  }, {
     "iri" : "http://www.owl-ontologies.com/turi#transportLocatedIn",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "2",
+    "range" : "3",
     "label" : {
       "IRI-based" : "transportLocatedIn",
       "en" : "transport located in"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "Relates a means of transport to the city it operates in"
     },
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "functional", "object", "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/turi#city_location",
+    "baseIri" : "http://www.owl-ontologies.com/turi",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "city_location",
+      "en" : "city_location"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "The geographical coordinates associated with a city"
+    },
+    "attributes" : [ "datatype", "external" ],
     "id" : "4"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_rating",
@@ -958,7 +979,7 @@
     "comment" : {
       "en" : "The evaluation score given to the hotel based on user feedback or standards"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "6"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_id",
@@ -972,7 +993,7 @@
     "comment" : {
       "en" : "Unique identifier assigned to a hotel"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "15"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#attraction_type",
@@ -986,7 +1007,7 @@
     "comment" : {
       "en" : "The category or classification of a tourist attraction"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "26"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#transport_id",
@@ -996,11 +1017,11 @@
       "IRI-based" : "transport_id",
       "undefined" : "transport_id"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "Unique identifier assigned to a transport entity"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "28"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_price_per_night",
@@ -1014,41 +1035,41 @@
     "comment" : {
       "en" : "The price per night to stay at the hotel"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "30"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/turi#city_id",
+    "baseIri" : "http://www.owl-ontologies.com/turi",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "city_id",
+      "en" : "city_id"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "A unique numeric identifier assigned to a citye"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "31"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurant_cuisine_type",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "33",
+    "range" : "35",
     "label" : {
       "IRI-based" : "restaurant_cuisine_type",
       "en" : "restaurant_cuisine_type"
     },
     "minCardinality" : "1",
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "The type of cuisine offered by the restaurant"
     },
-    "attributes" : [ "datatype" ],
-    "id" : "31"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "33"
   }, {
-    "iri" : "http://www.owl-ontologies.com/turi#city_id",
-    "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "35",
-    "label" : {
-      "IRI-based" : "city_id",
-      "en" : "city_id"
-    },
-    "domain" : "2",
-    "comment" : {
-      "en" : "A unique numeric identifier assigned to a citye"
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "34"
-  }, {
-    "range" : "5",
-    "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "2",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "37"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#event_name",
@@ -1062,12 +1083,12 @@
     "comment" : {
       "en" : "The official name of the event"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "38"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "39"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurant_name",
@@ -1077,41 +1098,41 @@
       "IRI-based" : "restaurant_name",
       "undefined" : "restaurant_name"
     },
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "The official name of the restaurant"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "41"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "45"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "46"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
     "range" : "23",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_stars",
@@ -1126,7 +1147,7 @@
     "comment" : {
       "en" : "The star rating assigned to the hotel, representing its quality"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "56"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#attraction_id",
@@ -1140,7 +1161,7 @@
     "comment" : {
       "en" : "Unique identifier assigned to an attraction"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "57"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_name",
@@ -1154,17 +1175,17 @@
     "comment" : {
       "en" : "The official name of the hotel"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "59"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "60"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "61"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurant_rating",
@@ -1174,46 +1195,46 @@
       "IRI-based" : "restaurant_rating",
       "undefined" : "restaurant_rating"
     },
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "The evaluation score assigned to the restaurant based on customer reviews or industry standards"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "62"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   }, {
     "range" : "7",
     "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "67"
   }, {
     "range" : "9",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "68"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
     "range" : "7",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotelLocatedIn",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "2",
+    "range" : "3",
     "label" : {
       "IRI-based" : "hotelLocatedIn",
       "en" : "hotel located in"
@@ -1222,12 +1243,12 @@
     "comment" : {
       "en" : "Relates a hotel to the city where it is located"
     },
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "functional", "object", "external" ],
     "id" : "71"
   }, {
     "range" : "9",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#event_type",
@@ -1242,7 +1263,7 @@
     "comment" : {
       "en" : "The category or classification of the event"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "74"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#transport_company",
@@ -1253,11 +1274,11 @@
       "en" : "transport_company"
     },
     "minCardinality" : "1",
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "The name of the company operating the transport service"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "75"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#transport_type",
@@ -1267,11 +1288,11 @@
       "IRI-based" : "transport_type",
       "en" : "transport_type"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "The type or category of transport service provided"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "77"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#event_id",
@@ -1285,7 +1306,7 @@
     "comment" : {
       "en" : "Unique identifier assigned to an event"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "79"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#attraction_name",
@@ -1299,7 +1320,7 @@
     "comment" : {
       "en" : "The official name of the tourist attraction"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "83"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#transport_average_cost",
@@ -1309,11 +1330,11 @@
       "IRI-based" : "transport_average_cost",
       "en" : "transport_average_cost"
     },
-    "domain" : "5",
+    "domain" : "2",
     "comment" : {
       "en" : "The average cost associated with using the transport service"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "84"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#attraction_rating",
@@ -1328,12 +1349,12 @@
     "comment" : {
       "undefined" : "The evaluation score assigned to a tourist attraction"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "85"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#eventLocatedIn",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "2",
+    "range" : "3",
     "label" : {
       "IRI-based" : "eventLocatedIn",
       "en" : "event located in"
@@ -1342,67 +1363,67 @@
     "comment" : {
       "en" : "Relates an event to the city where it is held"
     },
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "functional", "object", "external" ],
     "id" : "86"
   }, {
     "range" : "23",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "87"
   }, {
     "range" : "23",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "88"
   }, {
     "range" : "7",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "89"
   }, {
-    "range" : "32",
+    "range" : "34",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "90"
   }, {
-    "range" : "5",
+    "range" : "2",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "91"
   }, {
     "range" : "9",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "92"
   }, {
     "range" : "7",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
-    "range" : "32",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "34",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "94"
   }, {
-    "range" : "5",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "2",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "95"
   }, {
     "range" : "7",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
-    "range" : "2",
+    "range" : "3",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "97"
   }, {
     "range" : "9",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#city_name",
@@ -1412,11 +1433,11 @@
       "IRI-based" : "city_name",
       "en" : "city_name"
     },
-    "domain" : "2",
+    "domain" : "3",
     "comment" : {
       "en" : "The official name of the city"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "99"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#event_date",
@@ -1430,7 +1451,7 @@
     "comment" : {
       "en" : "The date when the event takes place"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "100"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#hotel_type",
@@ -1444,7 +1465,7 @@
     "comment" : {
       "en" : "Type of the hotel based on its category or services"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "101"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurant_average_price",
@@ -1454,11 +1475,11 @@
       "IRI-based" : "restaurant_average_price",
       "en" : "restaurant_average_price"
     },
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "The average cost of a meal at the restaurant"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "102"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurant_id",
@@ -1468,30 +1489,30 @@
       "IRI-based" : "restaurant_id",
       "en" : "restaurant_id"
     },
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "Unique identifier assigned to a restaurant"
     },
-    "attributes" : [ "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "103"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#restaurantLocatedIn",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "2",
+    "range" : "3",
     "label" : {
       "IRI-based" : "restaurantLocatedIn",
       "en" : "restaurant located in"
     },
-    "domain" : "32",
+    "domain" : "34",
     "comment" : {
       "en" : "Relates a restaurant to the city where it is located"
     },
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "functional", "object", "external" ],
     "id" : "104"
   }, {
     "iri" : "http://www.owl-ontologies.com/turi#attractionLocatedIn",
     "baseIri" : "http://www.owl-ontologies.com/turi",
-    "range" : "2",
+    "range" : "3",
     "label" : {
       "IRI-based" : "attractionLocatedIn",
       "en" : "attraction located in"
@@ -1500,7 +1521,7 @@
     "comment" : {
       "en" : "Relates an attraction to the city where it is located"
     },
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "functional", "object", "external" ],
     "id" : "105"
   } ]
 }
