@@ -1,10 +1,9 @@
-<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/2002/07/owl#versionIRI> <https://shzen8.github.io/RDC-PAC2/0.0.1> .
-<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/elements/1.1/creator> "Sergi Oliver Marti" .
-<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/elements/1.1/title> "Ontology of Intelligent Tourism and Recommendations" .
-<https://shzen8.github.io/RDC-PAC2/> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
-<https://shzen8.github.io/RDC-PAC2/> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
-<https://shzen8.github.io/RDC-PAC2/> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+<http://www.owl-ontologies.com/turi#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/elements/1.1/crator> "Sergi Oliver Marti" .
+<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/elements/1.1/title> "Ontology of Intelligent Tourism and Recommendations" .
+<http://www.owl-ontologies.com/turi#> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" .
+<http://www.owl-ontologies.com/turi#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<http://www.owl-ontologies.com/turi#> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 # 
 # 
 # #################################################################
@@ -16,9 +15,6 @@
 # 
 # http://purl.org/dc/elements/1.1/crator
 <http://purl.org/dc/elements/1.1/crator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/elements/1.1/creator
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/elements/1.1/title
 <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -543,33 +539,33 @@ _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <http://www.owl-ontologies.com/turi#Tramvia> <http://www.w3.org/2000/01/rdf-schema#comment> "A tram service operating in Toledo, providing public transportation within the city"@en .
 <http://www.owl-ontologies.com/turi#Tramvia> <http://www.w3.org/2000/01/rdf-schema#label> "Tramvia" .
 # 
-_:genid11 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid11 <http://www.w3.org/2003/11/swrl#argument2> "Japanese" .
-_:genid11 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#restaurant_cuisine_type> .
-_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid12 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Japanese> .
-_:genid13 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid13 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Hotel> .
-_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
-_:genid14 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Restaurant> .
-_:genid15 <http://www.w3.org/2003/11/swrl#body> _:genid16 .
-_:genid15 <http://www.w3.org/2003/11/swrl#head> _:genid17 .
-_:genid18 <http://www.w3.org/2003/11/swrl#body> _:genid19 .
-_:genid18 <http://www.w3.org/2003/11/swrl#head> _:genid20 .
-_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid21 <http://www.w3.org/2003/11/swrl#argument2> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:genid21 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#hotel_stars> .
-_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
-_:genid22 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Luxury> .
-_:genid23 <http://www.w3.org/2003/11/swrl#body> _:genid24 .
-_:genid23 <http://www.w3.org/2003/11/swrl#head> _:genid25 .
-_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid26 <http://www.w3.org/2003/11/swrl#argument2> "Metro" .
-_:genid26 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#transport_type> .
-_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Metro> .
-_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
-_:genid28 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Transport> .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid11 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Luxury> .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument2> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid12 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#hotel_stars> .
+_:genid13 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid13 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Restaurant> .
+_:genid14 <http://www.w3.org/2003/11/swrl#body> _:genid15 .
+_:genid14 <http://www.w3.org/2003/11/swrl#head> _:genid16 .
+_:genid17 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid17 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Transport> .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid18 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Metro> .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> .
+_:genid19 <http://www.w3.org/2003/11/swrl#argument2> "Metro" .
+_:genid19 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#transport_type> .
+_:genid20 <http://www.w3.org/2003/11/swrl#body> _:genid21 .
+_:genid20 <http://www.w3.org/2003/11/swrl#head> _:genid22 .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> .
+_:genid23 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Hotel> .
+_:genid24 <http://www.w3.org/2003/11/swrl#body> _:genid25 .
+_:genid24 <http://www.w3.org/2003/11/swrl#head> _:genid26 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.owl-ontologies.com/turi#Japanese> .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument2> "Japanese" .
+_:genid28 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.owl-ontologies.com/turi#restaurant_cuisine_type> .
 # 
 # 
 # #################################################################

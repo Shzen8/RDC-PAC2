@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://shzen8.github.io/RDC-PAC2/"
+     xml:base="http://www.owl-ontologies.com/turi#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://shzen8.github.io/RDC-PAC2/"
-     versionIRI="https://shzen8.github.io/RDC-PAC2/0.0.1">
+     ontologyIRI="http://www.owl-ontologies.com/turi#">
     <Prefix name="" IRI="http://www.owl-ontologies.com/turi#"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="mod" IRI="https://w3id.org/mod#"/>
@@ -20,7 +19,7 @@
     <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
     <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <AnnotationProperty abbreviatedIRI="dc:crator"/>
         <Literal>Sergi Oliver Marti</Literal>
     </Annotation>
     <Annotation>
@@ -40,175 +39,175 @@
         <IRI>https://chowlk.linkeddata.es/</IRI>
     </Annotation>
     <Declaration>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Attraction"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Beach"/>
+        <Class IRI="Beach"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Bus"/>
+        <Class IRI="Bus"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:City"/>
+        <Class IRI="City"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Cultural"/>
+        <Class IRI="Cultural"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Event"/>
+        <Class IRI="Event"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <Class IRI="Hotel"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Japanese"/>
+        <Class IRI="Japanese"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Korean"/>
+        <Class IRI="Korean"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Luxury"/>
+        <Class IRI="Luxury"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Metro"/>
+        <Class IRI="Metro"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Mexican"/>
+        <Class IRI="Mexican"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Monument"/>
+        <Class IRI="Monument"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Museum"/>
+        <Class IRI="Museum"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Musical"/>
+        <Class IRI="Musical"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Resort"/>
+        <Class IRI="Resort"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Restaurant"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Taxi"/>
+        <Class IRI="Taxi"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Train"/>
+        <Class IRI="Train"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Transport"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="turi:attractionLocatedIn"/>
+        <ObjectProperty IRI="attractionLocatedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="turi:eventLocatedIn"/>
+        <ObjectProperty IRI="eventLocatedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="turi:hotelLocatedIn"/>
+        <ObjectProperty IRI="hotelLocatedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="turi:restaurantLocatedIn"/>
+        <ObjectProperty IRI="restaurantLocatedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="turi:transportLocatedIn"/>
+        <ObjectProperty IRI="transportLocatedIn"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:attraction_id"/>
+        <DataProperty IRI="attraction_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:attraction_name"/>
+        <DataProperty IRI="attraction_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:attraction_rating"/>
+        <DataProperty IRI="attraction_rating"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:attraction_type"/>
+        <DataProperty IRI="attraction_type"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:city_id"/>
+        <DataProperty IRI="city_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:city_location"/>
+        <DataProperty IRI="city_location"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:city_name"/>
+        <DataProperty IRI="city_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:event_date"/>
+        <DataProperty IRI="event_date"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:event_id"/>
+        <DataProperty IRI="event_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:event_name"/>
+        <DataProperty IRI="event_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:event_type"/>
+        <DataProperty IRI="event_type"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_id"/>
+        <DataProperty IRI="hotel_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_name"/>
+        <DataProperty IRI="hotel_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_price_per_night"/>
+        <DataProperty IRI="hotel_price_per_night"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_rating"/>
+        <DataProperty IRI="hotel_rating"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_stars"/>
+        <DataProperty IRI="hotel_stars"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:hotel_type"/>
+        <DataProperty IRI="hotel_type"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:restaurant_average_price"/>
+        <DataProperty IRI="restaurant_average_price"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:restaurant_cuisine_type"/>
+        <DataProperty IRI="restaurant_cuisine_type"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:restaurant_id"/>
+        <DataProperty IRI="restaurant_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:restaurant_name"/>
+        <DataProperty IRI="restaurant_name"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:restaurant_rating"/>
+        <DataProperty IRI="restaurant_rating"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:transport_average_cost"/>
+        <DataProperty IRI="transport_average_cost"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:transport_company"/>
+        <DataProperty IRI="transport_company"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:transport_id"/>
+        <DataProperty IRI="transport_id"/>
     </Declaration>
     <Declaration>
-        <DataProperty abbreviatedIRI="turi:transport_type"/>
+        <DataProperty IRI="transport_type"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <NamedIndividual IRI="CastellToledo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <NamedIndividual IRI="FiraToledo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:Toledo"/>
+        <NamedIndividual IRI="Toledo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <NamedIndividual IRI="Tramvia"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="dc:crator"/>
@@ -246,558 +245,555 @@
     <Declaration>
         <AnnotationProperty abbreviatedIRI="mod:createdWith"/>
     </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="dc:creator"/>
-    </Declaration>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Attraction"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="turi:attractionLocatedIn"/>
-            <Class abbreviatedIRI="turi:City"/>
+            <ObjectProperty IRI="attractionLocatedIn"/>
+            <Class IRI="City"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Attraction"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="turi:attraction_rating"/>
+            <DataProperty IRI="attraction_rating"/>
             <Datatype abbreviatedIRI="xsd:float"/>
         </DataMinCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Beach"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Beach"/>
+        <Class IRI="Attraction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Bus"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Bus"/>
+        <Class IRI="Transport"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Cultural"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <Class IRI="Cultural"/>
+        <Class IRI="Event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Event"/>
+        <Class IRI="Event"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="turi:eventLocatedIn"/>
-            <Class abbreviatedIRI="turi:City"/>
+            <ObjectProperty IRI="eventLocatedIn"/>
+            <Class IRI="City"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Event"/>
+        <Class IRI="Event"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="turi:event_type"/>
+            <DataProperty IRI="event_type"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataMinCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <Class IRI="Hotel"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="turi:hotelLocatedIn"/>
-            <Class abbreviatedIRI="turi:City"/>
+            <ObjectProperty IRI="hotelLocatedIn"/>
+            <Class IRI="City"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <Class IRI="Hotel"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="turi:hotel_stars"/>
+            <DataProperty IRI="hotel_stars"/>
             <Datatype abbreviatedIRI="xsd:integer"/>
         </DataMinCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Japanese"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Japanese"/>
+        <Class IRI="Restaurant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Korean"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Korean"/>
+        <Class IRI="Restaurant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Luxury"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <Class IRI="Luxury"/>
+        <Class IRI="Hotel"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Metro"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Metro"/>
+        <Class IRI="Transport"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Mexican"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Mexican"/>
+        <Class IRI="Restaurant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Monument"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Monument"/>
+        <Class IRI="Attraction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Museum"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <Class IRI="Museum"/>
+        <Class IRI="Attraction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Musical"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <Class IRI="Musical"/>
+        <Class IRI="Event"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Resort"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <Class IRI="Resort"/>
+        <Class IRI="Hotel"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Restaurant"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="turi:restaurantLocatedIn"/>
-            <Class abbreviatedIRI="turi:City"/>
+            <ObjectProperty IRI="restaurantLocatedIn"/>
+            <Class IRI="City"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <Class IRI="Restaurant"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="turi:restaurant_cuisine_type"/>
+            <DataProperty IRI="restaurant_cuisine_type"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataMinCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Taxi"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Taxi"/>
+        <Class IRI="Transport"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Train"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Train"/>
+        <Class IRI="Transport"/>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Transport"/>
         <ObjectExactCardinality cardinality="1">
-            <ObjectProperty abbreviatedIRI="turi:transportLocatedIn"/>
-            <Class abbreviatedIRI="turi:City"/>
+            <ObjectProperty IRI="transportLocatedIn"/>
+            <Class IRI="City"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Transport"/>
         <DataMinCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="turi:transport_company"/>
+            <DataProperty IRI="transport_company"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataMinCardinality>
     </SubClassOf>
     <DisjointClasses>
-        <Class abbreviatedIRI="turi:Attraction"/>
-        <Class abbreviatedIRI="turi:City"/>
-        <Class abbreviatedIRI="turi:Event"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <Class IRI="Attraction"/>
+        <Class IRI="City"/>
+        <Class IRI="Event"/>
+        <Class IRI="Hotel"/>
+        <Class IRI="Restaurant"/>
+        <Class IRI="Transport"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:Event"/>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <Class IRI="Event"/>
+        <NamedIndividual IRI="CastellToledo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:Attraction"/>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <Class IRI="Attraction"/>
+        <NamedIndividual IRI="FiraToledo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:Hotel"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <Class IRI="Hotel"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:Restaurant"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <Class IRI="Restaurant"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:City"/>
-        <NamedIndividual abbreviatedIRI="turi:Toledo"/>
+        <Class IRI="City"/>
+        <NamedIndividual IRI="Toledo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="turi:Transport"/>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <Class IRI="Transport"/>
+        <NamedIndividual IRI="Tramvia"/>
     </ClassAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:event_date"/>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <DataProperty IRI="event_date"/>
+        <NamedIndividual IRI="CastellToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-26T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:event_id"/>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <DataProperty IRI="event_id"/>
+        <NamedIndividual IRI="CastellToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:event_name"/>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <DataProperty IRI="event_name"/>
+        <NamedIndividual IRI="CastellToledo"/>
         <Literal>Fira Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:event_type"/>
-        <NamedIndividual abbreviatedIRI="turi:CastellToledo"/>
+        <DataProperty IRI="event_type"/>
+        <NamedIndividual IRI="CastellToledo"/>
         <Literal>Musical</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:attraction_id"/>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <DataProperty IRI="attraction_id"/>
+        <NamedIndividual IRI="FiraToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:attraction_name"/>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <DataProperty IRI="attraction_name"/>
+        <NamedIndividual IRI="FiraToledo"/>
         <Literal>Castell Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:attraction_rating"/>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <DataProperty IRI="attraction_rating"/>
+        <NamedIndividual IRI="FiraToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:attraction_type"/>
-        <NamedIndividual abbreviatedIRI="turi:FiraToledo"/>
+        <DataProperty IRI="attraction_type"/>
+        <NamedIndividual IRI="FiraToledo"/>
         <Literal>Musical</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_id"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_id"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">17</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_name"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_name"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal>Hotel Del Mar Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_price_per_night"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_price_per_night"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">145.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_rating"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_rating"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_stars"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_stars"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:hotel_type"/>
-        <NamedIndividual abbreviatedIRI="turi:HotelDelMarToledo"/>
+        <DataProperty IRI="hotel_type"/>
+        <NamedIndividual IRI="HotelDelMarToledo"/>
         <Literal>Beach</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:restaurant_average_price"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <DataProperty IRI="restaurant_average_price"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">48.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:restaurant_cuisine_type"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <DataProperty IRI="restaurant_cuisine_type"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
         <Literal>Japanese</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:restaurant_id"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <DataProperty IRI="restaurant_id"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:restaurant_name"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <DataProperty IRI="restaurant_name"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
         <Literal>Restaurant Gourmet Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:restaurant_rating"/>
-        <NamedIndividual abbreviatedIRI="turi:RestaurantGourmetToledo"/>
+        <DataProperty IRI="restaurant_rating"/>
+        <NamedIndividual IRI="RestaurantGourmetToledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:city_id"/>
-        <NamedIndividual abbreviatedIRI="turi:Toledo"/>
+        <DataProperty IRI="city_id"/>
+        <NamedIndividual IRI="Toledo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:city_location"/>
-        <NamedIndividual abbreviatedIRI="turi:Toledo"/>
+        <DataProperty IRI="city_location"/>
+        <NamedIndividual IRI="Toledo"/>
         <Literal>29.8628, -4.0273</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:city_name"/>
-        <NamedIndividual abbreviatedIRI="turi:Toledo"/>
+        <DataProperty IRI="city_name"/>
+        <NamedIndividual IRI="Toledo"/>
         <Literal>Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:transport_average_cost"/>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <DataProperty IRI="transport_average_cost"/>
+        <NamedIndividual IRI="Tramvia"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.61</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:transport_company"/>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <DataProperty IRI="transport_company"/>
+        <NamedIndividual IRI="Tramvia"/>
         <Literal>Trans Toledo</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:transport_id"/>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <DataProperty IRI="transport_id"/>
+        <NamedIndividual IRI="Tramvia"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="turi:transport_type"/>
-        <NamedIndividual abbreviatedIRI="turi:Tramvia"/>
+        <DataProperty IRI="transport_type"/>
+        <NamedIndividual IRI="Tramvia"/>
         <Literal>Tramvia</Literal>
     </DataPropertyAssertion>
     <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="turi:attractionLocatedIn"/>
+        <ObjectProperty IRI="attractionLocatedIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="turi:eventLocatedIn"/>
+        <ObjectProperty IRI="eventLocatedIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="turi:hotelLocatedIn"/>
+        <ObjectProperty IRI="hotelLocatedIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="turi:restaurantLocatedIn"/>
+        <ObjectProperty IRI="restaurantLocatedIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty abbreviatedIRI="turi:transportLocatedIn"/>
+        <ObjectProperty IRI="transportLocatedIn"/>
     </FunctionalObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="turi:attractionLocatedIn"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <ObjectProperty IRI="attractionLocatedIn"/>
+        <Class IRI="Attraction"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="turi:eventLocatedIn"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <ObjectProperty IRI="eventLocatedIn"/>
+        <Class IRI="Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="turi:hotelLocatedIn"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <ObjectProperty IRI="hotelLocatedIn"/>
+        <Class IRI="Hotel"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="turi:restaurantLocatedIn"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <ObjectProperty IRI="restaurantLocatedIn"/>
+        <Class IRI="Restaurant"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="turi:transportLocatedIn"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <ObjectProperty IRI="transportLocatedIn"/>
+        <Class IRI="Transport"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="turi:attractionLocatedIn"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <ObjectProperty IRI="attractionLocatedIn"/>
+        <Class IRI="City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="turi:eventLocatedIn"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <ObjectProperty IRI="eventLocatedIn"/>
+        <Class IRI="City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="turi:hotelLocatedIn"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <ObjectProperty IRI="hotelLocatedIn"/>
+        <Class IRI="City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="turi:restaurantLocatedIn"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <ObjectProperty IRI="restaurantLocatedIn"/>
+        <Class IRI="City"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="turi:transportLocatedIn"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <ObjectProperty IRI="transportLocatedIn"/>
+        <Class IRI="City"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:attraction_id"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <DataProperty IRI="attraction_id"/>
+        <Class IRI="Attraction"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:attraction_name"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <DataProperty IRI="attraction_name"/>
+        <Class IRI="Attraction"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:attraction_rating"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <DataProperty IRI="attraction_rating"/>
+        <Class IRI="Attraction"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:attraction_type"/>
-        <Class abbreviatedIRI="turi:Attraction"/>
+        <DataProperty IRI="attraction_type"/>
+        <Class IRI="Attraction"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:city_id"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <DataProperty IRI="city_id"/>
+        <Class IRI="City"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:city_location"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <DataProperty IRI="city_location"/>
+        <Class IRI="City"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:city_name"/>
-        <Class abbreviatedIRI="turi:City"/>
+        <DataProperty IRI="city_name"/>
+        <Class IRI="City"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:event_date"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <DataProperty IRI="event_date"/>
+        <Class IRI="Event"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:event_id"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <DataProperty IRI="event_id"/>
+        <Class IRI="Event"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:event_name"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <DataProperty IRI="event_name"/>
+        <Class IRI="Event"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:event_type"/>
-        <Class abbreviatedIRI="turi:Event"/>
+        <DataProperty IRI="event_type"/>
+        <Class IRI="Event"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_id"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_id"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_name"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_name"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_price_per_night"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_price_per_night"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_rating"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_rating"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_stars"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_stars"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:hotel_type"/>
-        <Class abbreviatedIRI="turi:Hotel"/>
+        <DataProperty IRI="hotel_type"/>
+        <Class IRI="Hotel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:restaurant_average_price"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <DataProperty IRI="restaurant_average_price"/>
+        <Class IRI="Restaurant"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:restaurant_cuisine_type"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <DataProperty IRI="restaurant_cuisine_type"/>
+        <Class IRI="Restaurant"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:restaurant_id"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <DataProperty IRI="restaurant_id"/>
+        <Class IRI="Restaurant"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:restaurant_name"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <DataProperty IRI="restaurant_name"/>
+        <Class IRI="Restaurant"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:restaurant_rating"/>
-        <Class abbreviatedIRI="turi:Restaurant"/>
+        <DataProperty IRI="restaurant_rating"/>
+        <Class IRI="Restaurant"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:transport_average_cost"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <DataProperty IRI="transport_average_cost"/>
+        <Class IRI="Transport"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:transport_company"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <DataProperty IRI="transport_company"/>
+        <Class IRI="Transport"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:transport_id"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <DataProperty IRI="transport_id"/>
+        <Class IRI="Transport"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="turi:transport_type"/>
-        <Class abbreviatedIRI="turi:Transport"/>
+        <DataProperty IRI="transport_type"/>
+        <Class IRI="Transport"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:attraction_id"/>
+        <DataProperty IRI="attraction_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:attraction_name"/>
+        <DataProperty IRI="attraction_name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:attraction_rating"/>
+        <DataProperty IRI="attraction_rating"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:attraction_type"/>
+        <DataProperty IRI="attraction_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:city_id"/>
+        <DataProperty IRI="city_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:city_location"/>
+        <DataProperty IRI="city_location"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:city_name"/>
+        <DataProperty IRI="city_name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:event_date"/>
+        <DataProperty IRI="event_date"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:event_id"/>
+        <DataProperty IRI="event_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:event_name"/>
+        <DataProperty IRI="event_name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:event_type"/>
+        <DataProperty IRI="event_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_id"/>
+        <DataProperty IRI="hotel_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_name"/>
+        <DataProperty IRI="hotel_name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_price_per_night"/>
+        <DataProperty IRI="hotel_price_per_night"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_rating"/>
+        <DataProperty IRI="hotel_rating"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_stars"/>
+        <DataProperty IRI="hotel_stars"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:hotel_type"/>
+        <DataProperty IRI="hotel_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:restaurant_average_price"/>
+        <DataProperty IRI="restaurant_average_price"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:restaurant_cuisine_type"/>
+        <DataProperty IRI="restaurant_cuisine_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:restaurant_id"/>
+        <DataProperty IRI="restaurant_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:restaurant_name"/>
+        <DataProperty IRI="restaurant_name"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:restaurant_rating"/>
+        <DataProperty IRI="restaurant_rating"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:transport_average_cost"/>
+        <DataProperty IRI="transport_average_cost"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:transport_company"/>
+        <DataProperty IRI="transport_company"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:transport_id"/>
+        <DataProperty IRI="transport_id"/>
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="turi:transport_type"/>
+        <DataProperty IRI="transport_type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <AnnotationAssertion>
@@ -812,738 +808,738 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Attraction</AbbreviatedIRI>
+        <IRI>Attraction</IRI>
         <Literal xml:lang="en">A place that draws visitors interest</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Attraction</AbbreviatedIRI>
+        <IRI>Attraction</IRI>
         <Literal xml:lang="en">Attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:Attraction</AbbreviatedIRI>
+        <IRI>Attraction</IRI>
         <Literal>https://dbpedia.org/page/Attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Beach</AbbreviatedIRI>
+        <IRI>Beach</IRI>
         <Literal xml:lang="en">A natural attraction consisting of a sandy or pebbly shore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Beach</AbbreviatedIRI>
+        <IRI>Beach</IRI>
         <Literal xml:lang="en">Beach</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Bus</AbbreviatedIRI>
+        <IRI>Bus</IRI>
         <Literal xml:lang="en">A road vehicle designed to carry many passengers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Bus</AbbreviatedIRI>
+        <IRI>Bus</IRI>
         <Literal xml:lang="en">Bus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:CastellToledo</AbbreviatedIRI>
+        <IRI>CastellToledo</IRI>
         <Literal xml:lang="en">A cultural event held in Toledo featuring exhibitions and local celebrations</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:CastellToledo</AbbreviatedIRI>
+        <IRI>CastellToledo</IRI>
         <Literal>FiraToledo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:City</AbbreviatedIRI>
+        <IRI>City</IRI>
         <Literal xml:lang="en">A populated area with administrative boundaries</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:City</AbbreviatedIRI>
+        <IRI>City</IRI>
         <Literal xml:lang="en">City</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:City</AbbreviatedIRI>
+        <IRI>City</IRI>
         <Literal>https://dbpedia.org/page/City</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Cultural</AbbreviatedIRI>
+        <IRI>Cultural</IRI>
         <Literal xml:lang="en">An event celebrating cultural expressions like art, dance, or traditions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Cultural</AbbreviatedIRI>
+        <IRI>Cultural</IRI>
         <Literal xml:lang="en">Cultural</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Event</AbbreviatedIRI>
+        <IRI>Event</IRI>
         <Literal xml:lang="en">An organized public or private occurrence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Event</AbbreviatedIRI>
+        <IRI>Event</IRI>
         <Literal xml:lang="en">Event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:Event</AbbreviatedIRI>
+        <IRI>Event</IRI>
         <Literal>https://dbpedia.org/page/Event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:FiraToledo</AbbreviatedIRI>
+        <IRI>FiraToledo</IRI>
         <Literal xml:lang="en">A historic castle located in the city of Toledo, serving as a major tourist attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:FiraToledo</AbbreviatedIRI>
+        <IRI>FiraToledo</IRI>
         <Literal>CastellToledo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Hotel</AbbreviatedIRI>
+        <IRI>Hotel</IRI>
         <Literal xml:lang="en">A building offering lodging accommodations for travelers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Hotel</AbbreviatedIRI>
+        <IRI>Hotel</IRI>
         <Literal xml:lang="en">Hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:Hotel</AbbreviatedIRI>
+        <IRI>Hotel</IRI>
         <Literal>https://dbpedia.org/page/Hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:HotelDelMarToledo</AbbreviatedIRI>
+        <IRI>HotelDelMarToledo</IRI>
         <Literal xml:lang="en">A five-star hotel located in Toledo, offering accommodation and premium services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:HotelDelMarToledo</AbbreviatedIRI>
+        <IRI>HotelDelMarToledo</IRI>
         <Literal xml:lang="en">HotelDelMarToledo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Japanese</AbbreviatedIRI>
+        <IRI>Japanese</IRI>
         <Literal xml:lang="en">A restaurant specializing in Japanese cuisine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Japanese</AbbreviatedIRI>
+        <IRI>Japanese</IRI>
         <Literal xml:lang="en">Japanese</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Korean</AbbreviatedIRI>
+        <IRI>Korean</IRI>
         <Literal xml:lang="en">A restaurant specializing in Korean cuisine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Korean</AbbreviatedIRI>
+        <IRI>Korean</IRI>
         <Literal xml:lang="en">Korean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Luxury</AbbreviatedIRI>
+        <IRI>Luxury</IRI>
         <Literal xml:lang="en">A hotel offering high-end accommodations and premium services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Luxury</AbbreviatedIRI>
+        <IRI>Luxury</IRI>
         <Literal xml:lang="en">Luxury</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Metro</AbbreviatedIRI>
+        <IRI>Metro</IRI>
         <Literal xml:lang="en">An underground rapid transit system in an urban area</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Metro</AbbreviatedIRI>
+        <IRI>Metro</IRI>
         <Literal xml:lang="en">Metro</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Mexican</AbbreviatedIRI>
+        <IRI>Mexican</IRI>
         <Literal xml:lang="en">A restaurant specializing in Mexican cuisine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Mexican</AbbreviatedIRI>
+        <IRI>Mexican</IRI>
         <Literal xml:lang="en">Mexican</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Monument</AbbreviatedIRI>
+        <IRI>Monument</IRI>
         <Literal xml:lang="en">A structure build to commemorate persons or events</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Monument</AbbreviatedIRI>
+        <IRI>Monument</IRI>
         <Literal xml:lang="en">Monument</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Museum</AbbreviatedIRI>
+        <IRI>Museum</IRI>
         <Literal xml:lang="en">An institution that collects and displays objects of historical, scientific, or artistic value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Museum</AbbreviatedIRI>
+        <IRI>Museum</IRI>
         <Literal xml:lang="en">Museum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Musical</AbbreviatedIRI>
+        <IRI>Musical</IRI>
         <Literal xml:lang="en">An event focused on musical performances</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Musical</AbbreviatedIRI>
+        <IRI>Musical</IRI>
         <Literal xml:lang="en">Musical</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Resort</AbbreviatedIRI>
+        <IRI>Resort</IRI>
         <Literal xml:lang="en">A hotel located in a vacation area offering extensive recreational facilities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Resort</AbbreviatedIRI>
+        <IRI>Resort</IRI>
         <Literal xml:lang="en">Resort</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Restaurant</AbbreviatedIRI>
+        <IRI>Restaurant</IRI>
         <Literal xml:lang="en">An establishment where meals are prepared and served to customers</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Restaurant</AbbreviatedIRI>
+        <IRI>Restaurant</IRI>
         <Literal xml:lang="en">Restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:Restaurant</AbbreviatedIRI>
+        <IRI>Restaurant</IRI>
         <Literal>https://dbpedia.org/page/Restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:RestaurantGourmetToledo</AbbreviatedIRI>
+        <IRI>RestaurantGourmetToledo</IRI>
         <Literal xml:lang="en">A gourmet restaurant in Toledo known for its fine dining and local cuisine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:RestaurantGourmetToledo</AbbreviatedIRI>
+        <IRI>RestaurantGourmetToledo</IRI>
         <Literal xml:lang="en">RestaurantGourmentToledo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Taxi</AbbreviatedIRI>
+        <IRI>Taxi</IRI>
         <Literal xml:lang="en">A car licensed to transport passengers in return for payment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Taxi</AbbreviatedIRI>
+        <IRI>Taxi</IRI>
         <Literal xml:lang="en">Taxi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Toledo</AbbreviatedIRI>
+        <IRI>Toledo</IRI>
         <Literal xml:lang="en">A historic city in Spain known for its rich cultural heritage and UNESCO World Heritage status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Toledo</AbbreviatedIRI>
+        <IRI>Toledo</IRI>
         <Literal>Toledo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Train</AbbreviatedIRI>
+        <IRI>Train</IRI>
         <Literal xml:lang="en">A series of connected vehicles traveling on railways to transport passengers or goods</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Train</AbbreviatedIRI>
+        <IRI>Train</IRI>
         <Literal xml:lang="en">Train</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Tramvia</AbbreviatedIRI>
+        <IRI>Tramvia</IRI>
         <Literal xml:lang="en">A tram service operating in Toledo, providing public transportation within the city</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Tramvia</AbbreviatedIRI>
+        <IRI>Tramvia</IRI>
         <Literal>Tramvia</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:Transport</AbbreviatedIRI>
+        <IRI>Transport</IRI>
         <Literal xml:lang="en">A system or means of conveying people or goods from place to place</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:Transport</AbbreviatedIRI>
+        <IRI>Transport</IRI>
         <Literal xml:lang="en">Transport</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <AbbreviatedIRI>turi:Transport</AbbreviatedIRI>
+        <IRI>Transport</IRI>
         <Literal>https://dbpedia.org/page/Transport</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:attractionLocatedIn</AbbreviatedIRI>
+        <IRI>attractionLocatedIn</IRI>
         <Literal xml:lang="en">Relates an attraction to the city where it is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:attractionLocatedIn</AbbreviatedIRI>
+        <IRI>attractionLocatedIn</IRI>
         <Literal xml:lang="en">attraction located in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:attraction_id</AbbreviatedIRI>
+        <IRI>attraction_id</IRI>
         <Literal xml:lang="en">Unique identifier assigned to an attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:attraction_id</AbbreviatedIRI>
+        <IRI>attraction_id</IRI>
         <Literal xml:lang="en">attraction_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:attraction_name</AbbreviatedIRI>
+        <IRI>attraction_name</IRI>
         <Literal xml:lang="en">The official name of the tourist attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:attraction_name</AbbreviatedIRI>
+        <IRI>attraction_name</IRI>
         <Literal xml:lang="en">attraction_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:attraction_rating</AbbreviatedIRI>
+        <IRI>attraction_rating</IRI>
         <Literal>The evaluation score assigned to a tourist attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:attraction_rating</AbbreviatedIRI>
+        <IRI>attraction_rating</IRI>
         <Literal xml:lang="en">attraction_rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:attraction_type</AbbreviatedIRI>
+        <IRI>attraction_type</IRI>
         <Literal xml:lang="en">The category or classification of a tourist attraction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:attraction_type</AbbreviatedIRI>
+        <IRI>attraction_type</IRI>
         <Literal xml:lang="en">attraction_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:city_id</AbbreviatedIRI>
+        <IRI>city_id</IRI>
         <Literal xml:lang="en">A unique numeric identifier assigned to a citye</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:city_id</AbbreviatedIRI>
+        <IRI>city_id</IRI>
         <Literal xml:lang="en">city_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:city_location</AbbreviatedIRI>
+        <IRI>city_location</IRI>
         <Literal>The geographical coordinates associated with a city</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:city_location</AbbreviatedIRI>
+        <IRI>city_location</IRI>
         <Literal xml:lang="en">city_location</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:city_name</AbbreviatedIRI>
+        <IRI>city_name</IRI>
         <Literal xml:lang="en">The official name of the city</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:city_name</AbbreviatedIRI>
+        <IRI>city_name</IRI>
         <Literal xml:lang="en">city_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:eventLocatedIn</AbbreviatedIRI>
+        <IRI>eventLocatedIn</IRI>
         <Literal xml:lang="en">Relates an event to the city where it is held</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:eventLocatedIn</AbbreviatedIRI>
+        <IRI>eventLocatedIn</IRI>
         <Literal xml:lang="en">event located in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:event_date</AbbreviatedIRI>
+        <IRI>event_date</IRI>
         <Literal xml:lang="en">The date when the event takes place</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:event_date</AbbreviatedIRI>
+        <IRI>event_date</IRI>
         <Literal xml:lang="en">event_date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:event_id</AbbreviatedIRI>
+        <IRI>event_id</IRI>
         <Literal xml:lang="en">Unique identifier assigned to an event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:event_id</AbbreviatedIRI>
+        <IRI>event_id</IRI>
         <Literal xml:lang="en">event_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:event_name</AbbreviatedIRI>
+        <IRI>event_name</IRI>
         <Literal xml:lang="en">The official name of the event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:event_name</AbbreviatedIRI>
+        <IRI>event_name</IRI>
         <Literal xml:lang="en">event_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:event_type</AbbreviatedIRI>
+        <IRI>event_type</IRI>
         <Literal xml:lang="en">The category or classification of the event</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:event_type</AbbreviatedIRI>
+        <IRI>event_type</IRI>
         <Literal xml:lang="en">event_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotelLocatedIn</AbbreviatedIRI>
+        <IRI>hotelLocatedIn</IRI>
         <Literal xml:lang="en">Relates a hotel to the city where it is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotelLocatedIn</AbbreviatedIRI>
+        <IRI>hotelLocatedIn</IRI>
         <Literal xml:lang="en">hotel located in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_id</AbbreviatedIRI>
+        <IRI>hotel_id</IRI>
         <Literal xml:lang="en">Unique identifier assigned to a hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_id</AbbreviatedIRI>
+        <IRI>hotel_id</IRI>
         <Literal xml:lang="en">hotel_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_name</AbbreviatedIRI>
+        <IRI>hotel_name</IRI>
         <Literal xml:lang="en">The official name of the hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_name</AbbreviatedIRI>
+        <IRI>hotel_name</IRI>
         <Literal xml:lang="en">hotel_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_price_per_night</AbbreviatedIRI>
+        <IRI>hotel_price_per_night</IRI>
         <Literal xml:lang="en">The price per night to stay at the hotel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_price_per_night</AbbreviatedIRI>
+        <IRI>hotel_price_per_night</IRI>
         <Literal xml:lang="en">hotel_price_per_night</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_rating</AbbreviatedIRI>
+        <IRI>hotel_rating</IRI>
         <Literal xml:lang="en">The evaluation score given to the hotel based on user feedback or standards</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_rating</AbbreviatedIRI>
+        <IRI>hotel_rating</IRI>
         <Literal>hotel_rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_stars</AbbreviatedIRI>
+        <IRI>hotel_stars</IRI>
         <Literal xml:lang="en">The star rating assigned to the hotel, representing its quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_stars</AbbreviatedIRI>
+        <IRI>hotel_stars</IRI>
         <Literal xml:lang="en">hotel_stars</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:hotel_type</AbbreviatedIRI>
+        <IRI>hotel_type</IRI>
         <Literal xml:lang="en">Type of the hotel based on its category or services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:hotel_type</AbbreviatedIRI>
+        <IRI>hotel_type</IRI>
         <Literal xml:lang="en">hotel_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurantLocatedIn</AbbreviatedIRI>
+        <IRI>restaurantLocatedIn</IRI>
         <Literal xml:lang="en">Relates a restaurant to the city where it is located</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurantLocatedIn</AbbreviatedIRI>
+        <IRI>restaurantLocatedIn</IRI>
         <Literal xml:lang="en">restaurant located in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurant_average_price</AbbreviatedIRI>
+        <IRI>restaurant_average_price</IRI>
         <Literal xml:lang="en">The average cost of a meal at the restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurant_average_price</AbbreviatedIRI>
+        <IRI>restaurant_average_price</IRI>
         <Literal xml:lang="en">restaurant_average_price</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurant_cuisine_type</AbbreviatedIRI>
+        <IRI>restaurant_cuisine_type</IRI>
         <Literal xml:lang="en">The type of cuisine offered by the restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurant_cuisine_type</AbbreviatedIRI>
+        <IRI>restaurant_cuisine_type</IRI>
         <Literal xml:lang="en">restaurant_cuisine_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurant_id</AbbreviatedIRI>
+        <IRI>restaurant_id</IRI>
         <Literal xml:lang="en">Unique identifier assigned to a restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurant_id</AbbreviatedIRI>
+        <IRI>restaurant_id</IRI>
         <Literal xml:lang="en">restaurant_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurant_name</AbbreviatedIRI>
+        <IRI>restaurant_name</IRI>
         <Literal xml:lang="en">The official name of the restaurant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurant_name</AbbreviatedIRI>
+        <IRI>restaurant_name</IRI>
         <Literal>restaurant_name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:restaurant_rating</AbbreviatedIRI>
+        <IRI>restaurant_rating</IRI>
         <Literal xml:lang="en">The evaluation score assigned to the restaurant based on customer reviews or industry standards</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:restaurant_rating</AbbreviatedIRI>
+        <IRI>restaurant_rating</IRI>
         <Literal>restaurant_rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:transportLocatedIn</AbbreviatedIRI>
+        <IRI>transportLocatedIn</IRI>
         <Literal xml:lang="en">Relates a means of transport to the city it operates in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:transportLocatedIn</AbbreviatedIRI>
+        <IRI>transportLocatedIn</IRI>
         <Literal xml:lang="en">transport located in</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:transport_average_cost</AbbreviatedIRI>
+        <IRI>transport_average_cost</IRI>
         <Literal xml:lang="en">The average cost associated with using the transport service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:transport_average_cost</AbbreviatedIRI>
+        <IRI>transport_average_cost</IRI>
         <Literal xml:lang="en">transport_average_cost</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:transport_company</AbbreviatedIRI>
+        <IRI>transport_company</IRI>
         <Literal xml:lang="en">The name of the company operating the transport service</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:transport_company</AbbreviatedIRI>
+        <IRI>transport_company</IRI>
         <Literal xml:lang="en">transport_company</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:transport_id</AbbreviatedIRI>
+        <IRI>transport_id</IRI>
         <Literal xml:lang="en">Unique identifier assigned to a transport entity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:transport_id</AbbreviatedIRI>
+        <IRI>transport_id</IRI>
         <Literal>transport_id</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <AbbreviatedIRI>turi:transport_type</AbbreviatedIRI>
+        <IRI>transport_type</IRI>
         <Literal xml:lang="en">The type or category of transport service provided</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>turi:transport_type</AbbreviatedIRI>
+        <IRI>transport_type</IRI>
         <Literal xml:lang="en">transport_type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:body"/>
-        <AnonymousIndividual nodeID="_:genid2147484008"/>
-        <AnonymousIndividual nodeID="_:genid2147484007"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:head"/>
-        <AnonymousIndividual nodeID="_:genid2147484008"/>
-        <AnonymousIndividual nodeID="_:genid2147484009"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484010"/>
-        <IRI>urn:swrl:var#r</IRI>
+        <AnonymousIndividual nodeID="_:genid2147484060"/>
+        <IRI>urn:swrl:var#h</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484010"/>
-        <AbbreviatedIRI>turi:Restaurant</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:body"/>
-        <AnonymousIndividual nodeID="_:genid2147484012"/>
-        <AnonymousIndividual nodeID="_:genid2147484011"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:head"/>
-        <AnonymousIndividual nodeID="_:genid2147484012"/>
-        <AnonymousIndividual nodeID="_:genid2147484013"/>
+        <AnonymousIndividual nodeID="_:genid2147484060"/>
+        <IRI>Luxury</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484014"/>
+        <AnonymousIndividual nodeID="_:genid2147484061"/>
         <IRI>urn:swrl:var#h</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument2"/>
-        <AnonymousIndividual nodeID="_:genid2147484014"/>
+        <AnonymousIndividual nodeID="_:genid2147484061"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:propertyPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484014"/>
-        <AbbreviatedIRI>turi:hotel_stars</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484061"/>
+        <IRI>hotel_stars</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484015"/>
-        <IRI>urn:swrl:var#h</IRI>
+        <AnonymousIndividual nodeID="_:genid2147484062"/>
+        <IRI>urn:swrl:var#r</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484015"/>
-        <AbbreviatedIRI>turi:Luxury</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484062"/>
+        <IRI>Restaurant</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:body"/>
+        <AnonymousIndividual nodeID="_:genid2147484064"/>
+        <AnonymousIndividual nodeID="_:genid2147484063"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:head"/>
+        <AnonymousIndividual nodeID="_:genid2147484064"/>
+        <AnonymousIndividual nodeID="_:genid2147484065"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484016"/>
+        <AnonymousIndividual nodeID="_:genid2147484066"/>
         <IRI>urn:swrl:var#t</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484016"/>
-        <AbbreviatedIRI>turi:Metro</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484066"/>
+        <IRI>Transport</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484017"/>
+        <AnonymousIndividual nodeID="_:genid2147484067"/>
         <IRI>urn:swrl:var#t</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484017"/>
-        <AbbreviatedIRI>turi:Transport</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484067"/>
+        <IRI>Metro</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484018"/>
+        <AnonymousIndividual nodeID="_:genid2147484068"/>
         <IRI>urn:swrl:var#t</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument2"/>
-        <AnonymousIndividual nodeID="_:genid2147484018"/>
+        <AnonymousIndividual nodeID="_:genid2147484068"/>
         <Literal>Metro</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:propertyPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484018"/>
-        <AbbreviatedIRI>turi:transport_type</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484068"/>
+        <IRI>transport_type</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:body"/>
-        <AnonymousIndividual nodeID="_:genid2147484020"/>
-        <AnonymousIndividual nodeID="_:genid2147484019"/>
+        <AnonymousIndividual nodeID="_:genid2147484070"/>
+        <AnonymousIndividual nodeID="_:genid2147484069"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:head"/>
-        <AnonymousIndividual nodeID="_:genid2147484020"/>
-        <AnonymousIndividual nodeID="_:genid2147484021"/>
+        <AnonymousIndividual nodeID="_:genid2147484070"/>
+        <AnonymousIndividual nodeID="_:genid2147484071"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484022"/>
+        <AnonymousIndividual nodeID="_:genid2147484072"/>
         <IRI>urn:swrl:var#h</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484022"/>
-        <AbbreviatedIRI>turi:Hotel</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484072"/>
+        <IRI>Hotel</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:body"/>
+        <AnonymousIndividual nodeID="_:genid2147484074"/>
+        <AnonymousIndividual nodeID="_:genid2147484073"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:head"/>
+        <AnonymousIndividual nodeID="_:genid2147484074"/>
+        <AnonymousIndividual nodeID="_:genid2147484075"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484023"/>
-        <IRI>urn:swrl:var#r</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:argument2"/>
-        <AnonymousIndividual nodeID="_:genid2147484023"/>
-        <Literal>Japanese</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:propertyPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484023"/>
-        <AbbreviatedIRI>turi:restaurant_cuisine_type</AbbreviatedIRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
-        <AnonymousIndividual nodeID="_:genid2147484024"/>
+        <AnonymousIndividual nodeID="_:genid2147484076"/>
         <IRI>urn:swrl:var#r</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="swrl:classPredicate"/>
-        <AnonymousIndividual nodeID="_:genid2147484024"/>
-        <AbbreviatedIRI>turi:Japanese</AbbreviatedIRI>
+        <AnonymousIndividual nodeID="_:genid2147484076"/>
+        <IRI>Japanese</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:argument1"/>
+        <AnonymousIndividual nodeID="_:genid2147484077"/>
+        <IRI>urn:swrl:var#r</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:argument2"/>
+        <AnonymousIndividual nodeID="_:genid2147484077"/>
+        <Literal>Japanese</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="swrl:propertyPredicate"/>
+        <AnonymousIndividual nodeID="_:genid2147484077"/>
+        <IRI>restaurant_cuisine_type</IRI>
     </AnnotationAssertion>
 </Ontology>
 

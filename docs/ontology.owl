@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://shzen8.github.io/RDC-PAC2/"
-     xml:base="https://shzen8.github.io/RDC-PAC2/"
+<rdf:RDF xmlns="http://www.owl-ontologies.com/turi#"
+     xml:base="http://www.owl-ontologies.com/turi"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:mod="https://w3id.org/mod#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,9 +11,8 @@
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:turi="http://www.owl-ontologies.com/turi#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://shzen8.github.io/RDC-PAC2/">
-        <owl:versionIRI rdf:resource="https://shzen8.github.io/RDC-PAC2/0.0.1"/>
-        <dc:creator>Sergi Oliver Marti</dc:creator>
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/turi#">
+        <dc:crator>Sergi Oliver Marti</dc:crator>
         <dc:title>Ontology of Intelligent Tourism and Recommendations</dc:title>
         <terms:license>https://creativecommons.org/licenses/by/4.0/</terms:license>
         <owl:versionInfo>0.0.1</owl:versionInfo>
@@ -38,13 +37,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/crator"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
 
 
@@ -845,10 +837,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#CastellToledo">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#Event"/>
-        <turi:event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-26T00:00:00</turi:event_date>
-        <turi:event_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</turi:event_id>
-        <turi:event_name>Fira Toledo</turi:event_name>
-        <turi:event_type>Musical</turi:event_type>
+        <event_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-26T00:00:00</event_date>
+        <event_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</event_id>
+        <event_name>Fira Toledo</event_name>
+        <event_type>Musical</event_type>
         <rdfs:comment xml:lang="en">A cultural event held in Toledo featuring exhibitions and local celebrations</rdfs:comment>
         <rdfs:label>FiraToledo</rdfs:label>
     </owl:NamedIndividual>
@@ -860,10 +852,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#FiraToledo">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#Attraction"/>
-        <turi:attraction_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</turi:attraction_id>
-        <turi:attraction_name>Castell Toledo</turi:attraction_name>
-        <turi:attraction_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</turi:attraction_rating>
-        <turi:attraction_type>Musical</turi:attraction_type>
+        <attraction_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</attraction_id>
+        <attraction_name>Castell Toledo</attraction_name>
+        <attraction_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</attraction_rating>
+        <attraction_type>Musical</attraction_type>
         <rdfs:comment xml:lang="en">A historic castle located in the city of Toledo, serving as a major tourist attraction</rdfs:comment>
         <rdfs:label>CastellToledo</rdfs:label>
     </owl:NamedIndividual>
@@ -875,12 +867,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#HotelDelMarToledo">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#Hotel"/>
-        <turi:hotel_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</turi:hotel_id>
-        <turi:hotel_name>Hotel Del Mar Toledo</turi:hotel_name>
-        <turi:hotel_price_per_night rdf:datatype="http://www.w3.org/2001/XMLSchema#float">145.0</turi:hotel_price_per_night>
-        <turi:hotel_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</turi:hotel_rating>
-        <turi:hotel_stars rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</turi:hotel_stars>
-        <turi:hotel_type>Beach</turi:hotel_type>
+        <hotel_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</hotel_id>
+        <hotel_name>Hotel Del Mar Toledo</hotel_name>
+        <hotel_price_per_night rdf:datatype="http://www.w3.org/2001/XMLSchema#float">145.0</hotel_price_per_night>
+        <hotel_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</hotel_rating>
+        <hotel_stars rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hotel_stars>
+        <hotel_type>Beach</hotel_type>
         <rdfs:comment xml:lang="en">A five-star hotel located in Toledo, offering accommodation and premium services</rdfs:comment>
         <rdfs:label xml:lang="en">HotelDelMarToledo</rdfs:label>
     </owl:NamedIndividual>
@@ -892,11 +884,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#RestaurantGourmetToledo">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#Restaurant"/>
-        <turi:restaurant_average_price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</turi:restaurant_average_price>
-        <turi:restaurant_cuisine_type>Japanese</turi:restaurant_cuisine_type>
-        <turi:restaurant_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</turi:restaurant_id>
-        <turi:restaurant_name>Restaurant Gourmet Toledo</turi:restaurant_name>
-        <turi:restaurant_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</turi:restaurant_rating>
+        <restaurant_average_price rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.0</restaurant_average_price>
+        <restaurant_cuisine_type>Japanese</restaurant_cuisine_type>
+        <restaurant_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</restaurant_id>
+        <restaurant_name>Restaurant Gourmet Toledo</restaurant_name>
+        <restaurant_rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</restaurant_rating>
         <rdfs:comment xml:lang="en">A gourmet restaurant in Toledo known for its fine dining and local cuisine</rdfs:comment>
         <rdfs:label xml:lang="en">RestaurantGourmentToledo</rdfs:label>
     </owl:NamedIndividual>
@@ -908,9 +900,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#Toledo">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#City"/>
-        <turi:city_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</turi:city_id>
-        <turi:city_location>29.8628, -4.0273</turi:city_location>
-        <turi:city_name>Toledo</turi:city_name>
+        <city_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</city_id>
+        <city_location>29.8628, -4.0273</city_location>
+        <city_name>Toledo</city_name>
         <rdfs:comment xml:lang="en">A historic city in Spain known for its rich cultural heritage and UNESCO World Heritage status</rdfs:comment>
         <rdfs:label>Toledo</rdfs:label>
     </owl:NamedIndividual>
@@ -922,56 +914,27 @@
 
     <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/turi#Tramvia">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/turi#Transport"/>
-        <turi:transport_average_cost rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.61</turi:transport_average_cost>
-        <turi:transport_company>Trans Toledo</turi:transport_company>
-        <turi:transport_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</turi:transport_id>
-        <turi:transport_type>Tramvia</turi:transport_type>
+        <transport_average_cost rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.61</transport_average_cost>
+        <transport_company>Trans Toledo</transport_company>
+        <transport_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</transport_id>
+        <transport_type>Tramvia</transport_type>
         <rdfs:comment xml:lang="en">A tram service operating in Toledo, providing public transportation within the city</rdfs:comment>
         <rdfs:label>Tramvia</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description rdf:nodeID="genid11">
-        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
-        <swrl:argument2>Japanese</swrl:argument2>
-        <swrl:propertyPredicate rdf:resource="http://www.owl-ontologies.com/turi#restaurant_cuisine_type"/>
+        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Luxury"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid12">
-        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Japanese"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid13">
-        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Hotel"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid14">
-        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Restaurant"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid15">
-        <swrl:body>
-            <rdf:Description/>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description/>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid18">
-        <swrl:body>
-            <rdf:Description/>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description/>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid21">
         <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</swrl:argument2>
         <swrl:propertyPredicate rdf:resource="http://www.owl-ontologies.com/turi#hotel_stars"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid22">
-        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Luxury"/>
+    <rdf:Description rdf:nodeID="genid13">
+        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Restaurant"/>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid23">
+    <rdf:Description rdf:nodeID="genid14">
         <swrl:body>
             <rdf:Description/>
         </swrl:body>
@@ -979,18 +942,47 @@
             <rdf:Description/>
         </swrl:head>
     </rdf:Description>
-    <rdf:Description rdf:nodeID="genid26">
+    <rdf:Description rdf:nodeID="genid17">
+        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Transport"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Metro"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid19">
         <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
         <swrl:argument2>Metro</swrl:argument2>
         <swrl:propertyPredicate rdf:resource="http://www.owl-ontologies.com/turi#transport_type"/>
     </rdf:Description>
+    <rdf:Description rdf:nodeID="genid20">
+        <swrl:body>
+            <rdf:Description/>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description/>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <swrl:argument1 rdf:resource="urn:swrl:var#h"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Hotel"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid24">
+        <swrl:body>
+            <rdf:Description/>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description/>
+        </swrl:head>
+    </rdf:Description>
     <rdf:Description rdf:nodeID="genid27">
-        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Metro"/>
+        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Japanese"/>
     </rdf:Description>
     <rdf:Description rdf:nodeID="genid28">
-        <swrl:argument1 rdf:resource="urn:swrl:var#t"/>
-        <swrl:classPredicate rdf:resource="http://www.owl-ontologies.com/turi#Transport"/>
+        <swrl:argument1 rdf:resource="urn:swrl:var#r"/>
+        <swrl:argument2>Japanese</swrl:argument2>
+        <swrl:propertyPredicate rdf:resource="http://www.owl-ontologies.com/turi#restaurant_cuisine_type"/>
     </rdf:Description>
     
 
