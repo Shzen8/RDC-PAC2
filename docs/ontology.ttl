@@ -1,0 +1,676 @@
+@prefix : <http://www.owl-ontologies.com/turi#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.owl-ontologies.com/turi#> .
+
+<http://www.owl-ontologies.com/turi#> rdf:type owl:Ontology ;
+                                       <http://purl.org/dc/elements/1.1/crator> "Sergi Oliver Marti" ;
+                                       <http://purl.org/dc/elements/1.1/title> "Ontology of Intelligent Tourism and Recommendations" ;
+                                       <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0/" ;
+                                       owl:versionInfo "0.0.1" ;
+                                       <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/crator
+<http://purl.org/dc/elements/1.1/crator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.owl-ontologies.com/turi#attractionLocatedIn
+:attractionLocatedIn rdf:type owl:ObjectProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain :Attraction ;
+                     rdfs:range :City ;
+                     rdfs:comment "Relates an attraction to the city where it is located"@en ;
+                     rdfs:label "attraction located in"@en .
+
+
+###  http://www.owl-ontologies.com/turi#eventLocatedIn
+:eventLocatedIn rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Event ;
+                rdfs:range :City ;
+                rdfs:comment "Relates an event to the city where it is held"@en ;
+                rdfs:label "event located in"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotelLocatedIn
+:hotelLocatedIn rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Hotel ;
+                rdfs:range :City ;
+                rdfs:comment "Relates a hotel to the city where it is located"@en ;
+                rdfs:label "hotel located in"@en .
+
+
+###  http://www.owl-ontologies.com/turi#restaurantLocatedIn
+:restaurantLocatedIn rdf:type owl:ObjectProperty ,
+                              owl:FunctionalProperty ;
+                     rdfs:domain :Restaurant ;
+                     rdfs:range :City ;
+                     rdfs:comment "Relates a restaurant to the city where it is located"@en ;
+                     rdfs:label "restaurant located in"@en .
+
+
+###  http://www.owl-ontologies.com/turi#transportLocatedIn
+:transportLocatedIn rdf:type owl:ObjectProperty ,
+                             owl:FunctionalProperty ;
+                    rdfs:domain :Transport ;
+                    rdfs:range :City ;
+                    rdfs:comment "Relates a means of transport to the city it operates in"@en ;
+                    rdfs:label "transport located in"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.owl-ontologies.com/turi#attraction_id
+:attraction_id rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Attraction ;
+               rdfs:range xsd:integer ;
+               rdfs:comment "Unique identifier assigned to an attraction"@en ;
+               rdfs:label "attraction_id"@en .
+
+
+###  http://www.owl-ontologies.com/turi#attraction_name
+:attraction_name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Attraction ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "The official name of the tourist attraction"@en ;
+                 rdfs:label "attraction_name"@en .
+
+
+###  http://www.owl-ontologies.com/turi#attraction_rating
+:attraction_rating rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Attraction ;
+                   rdfs:range xsd:float ;
+                   rdfs:comment "The evaluation score assigned to a tourist attraction" ;
+                   rdfs:label "attraction_rating"@en .
+
+
+###  http://www.owl-ontologies.com/turi#attraction_type
+:attraction_type rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Attraction ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "The category or classification of a tourist attraction"@en ;
+                 rdfs:label "attraction_type"@en .
+
+
+###  http://www.owl-ontologies.com/turi#city_id
+:city_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :City ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "A unique numeric identifier assigned to a citye"@en ;
+         rdfs:label "city_id"@en .
+
+
+###  http://www.owl-ontologies.com/turi#city_location
+:city_location rdf:type owl:DatatypeProperty ;
+               rdfs:domain :City ;
+               rdfs:range xsd:string ;
+               rdfs:comment "The geographical coordinates associated with a city" ;
+               rdfs:label "city_location"@en .
+
+
+###  http://www.owl-ontologies.com/turi#city_name
+:city_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :City ;
+           rdfs:range xsd:string ;
+           rdfs:comment "The official name of the city"@en ;
+           rdfs:label "city_name"@en .
+
+
+###  http://www.owl-ontologies.com/turi#event_date
+:event_date rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range xsd:dateTime ;
+            rdfs:comment "The date when the event takes place"@en ;
+            rdfs:label "event_date"@en .
+
+
+###  http://www.owl-ontologies.com/turi#event_id
+:event_id rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Event ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "Unique identifier assigned to an event"@en ;
+          rdfs:label "event_id"@en .
+
+
+###  http://www.owl-ontologies.com/turi#event_name
+:event_name rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range xsd:string ;
+            rdfs:comment "The official name of the event"@en ;
+            rdfs:label "event_name"@en .
+
+
+###  http://www.owl-ontologies.com/turi#event_type
+:event_type rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range xsd:string ;
+            rdfs:comment "The category or classification of the event"@en ;
+            rdfs:label "event_type"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_id
+:hotel_id rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Hotel ;
+          rdfs:range xsd:integer ;
+          rdfs:comment "Unique identifier assigned to a hotel"@en ;
+          rdfs:label "hotel_id"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_name
+:hotel_name rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Hotel ;
+            rdfs:range xsd:string ;
+            rdfs:comment "The official name of the hotel"@en ;
+            rdfs:label "hotel_name"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_price_per_night
+:hotel_price_per_night rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :Hotel ;
+                       rdfs:range xsd:float ;
+                       rdfs:comment "The price per night to stay at the hotel"@en ;
+                       rdfs:label "hotel_price_per_night"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_rating
+:hotel_rating rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Hotel ;
+              rdfs:range xsd:float ;
+              rdfs:comment "The evaluation score given to the hotel based on user feedback or standards"@en ;
+              rdfs:label "hotel_rating" .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_stars
+:hotel_stars rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Hotel ;
+             rdfs:range xsd:integer ;
+             rdfs:comment "The star rating assigned to the hotel, representing its quality"@en ;
+             rdfs:label "hotel_stars"@en .
+
+
+###  http://www.owl-ontologies.com/turi#hotel_type
+:hotel_type rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Hotel ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Type of the hotel based on its category or services"@en ;
+            rdfs:label "hotel_type"@en .
+
+
+###  http://www.owl-ontologies.com/turi#restaurant_average_price
+:restaurant_average_price rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :Restaurant ;
+                          rdfs:range xsd:float ;
+                          rdfs:comment "The average cost of a meal at the restaurant"@en ;
+                          rdfs:label "restaurant_average_price"@en .
+
+
+###  http://www.owl-ontologies.com/turi#restaurant_cuisine_type
+:restaurant_cuisine_type rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Restaurant ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "The type of cuisine offered by the restaurant"@en ;
+                         rdfs:label "restaurant_cuisine_type"@en .
+
+
+###  http://www.owl-ontologies.com/turi#restaurant_id
+:restaurant_id rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Restaurant ;
+               rdfs:range xsd:integer ;
+               rdfs:comment "Unique identifier assigned to a restaurant"@en ;
+               rdfs:label "restaurant_id"@en .
+
+
+###  http://www.owl-ontologies.com/turi#restaurant_name
+:restaurant_name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Restaurant ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "The official name of the restaurant"@en ;
+                 rdfs:label "restaurant_name" .
+
+
+###  http://www.owl-ontologies.com/turi#restaurant_rating
+:restaurant_rating rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Restaurant ;
+                   rdfs:range xsd:float ;
+                   rdfs:comment "The evaluation score assigned to the restaurant based on customer reviews or industry standards"@en ;
+                   rdfs:label "restaurant_rating" .
+
+
+###  http://www.owl-ontologies.com/turi#transport_average_cost
+:transport_average_cost rdf:type owl:DatatypeProperty ;
+                        rdfs:domain :Transport ;
+                        rdfs:range xsd:float ;
+                        rdfs:comment "The average cost associated with using the transport service"@en ;
+                        rdfs:label "transport_average_cost"@en .
+
+
+###  http://www.owl-ontologies.com/turi#transport_company
+:transport_company rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Transport ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "The name of the company operating the transport service"@en ;
+                   rdfs:label "transport_company"@en .
+
+
+###  http://www.owl-ontologies.com/turi#transport_id
+:transport_id rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Transport ;
+              rdfs:range xsd:integer ;
+              rdfs:comment "Unique identifier assigned to a transport entity"@en ;
+              rdfs:label "transport_id" .
+
+
+###  http://www.owl-ontologies.com/turi#transport_type
+:transport_type rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Transport ;
+                rdfs:range xsd:string ;
+                rdfs:comment "The type or category of transport service provided"@en ;
+                rdfs:label "transport_type"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.owl-ontologies.com/turi#Attraction
+:Attraction rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :attractionLocatedIn ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :City
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :attraction_rating ;
+                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:float
+                            ] ;
+            rdfs:comment "A place that draws visitors interest"@en ;
+            rdfs:label "Attraction"@en ;
+            owl:sameAs "https://dbpedia.org/page/Attraction" .
+
+
+###  http://www.owl-ontologies.com/turi#Beach
+:Beach rdf:type owl:Class ;
+       rdfs:subClassOf :Attraction ;
+       rdfs:comment "A natural attraction consisting of a sandy or pebbly shore"@en ;
+       rdfs:label "Beach"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Bus
+:Bus rdf:type owl:Class ;
+     rdfs:subClassOf :Transport ;
+     rdfs:comment "A road vehicle designed to carry many passengers"@en ;
+     rdfs:label "Bus"@en .
+
+
+###  http://www.owl-ontologies.com/turi#City
+:City rdf:type owl:Class ;
+      rdfs:comment "A populated area with administrative boundaries"@en ;
+      rdfs:label "City"@en ;
+      owl:sameAs "https://dbpedia.org/page/City" .
+
+
+###  http://www.owl-ontologies.com/turi#Cultural
+:Cultural rdf:type owl:Class ;
+          rdfs:subClassOf :Event ;
+          rdfs:comment "An event celebrating cultural expressions like art, dance, or traditions"@en ;
+          rdfs:label "Cultural"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :eventLocatedIn ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :City
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :event_type ;
+                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:string
+                       ] ;
+       rdfs:comment "An organized public or private occurrence"@en ;
+       rdfs:label "Event"@en ;
+       owl:sameAs "https://dbpedia.org/page/Event" .
+
+
+###  http://www.owl-ontologies.com/turi#Hotel
+:Hotel rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :hotelLocatedIn ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :City
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hotel_stars ;
+                         owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:integer
+                       ] ;
+       rdfs:comment "A building offering lodging accommodations for travelers"@en ;
+       rdfs:label "Hotel"@en ;
+       owl:sameAs "https://dbpedia.org/page/Hotel" .
+
+
+###  http://www.owl-ontologies.com/turi#Japanese
+:Japanese rdf:type owl:Class ;
+          rdfs:subClassOf :Restaurant ;
+          rdfs:comment "A restaurant specializing in Japanese cuisine"@en ;
+          rdfs:label "Japanese"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Korean
+:Korean rdf:type owl:Class ;
+        rdfs:subClassOf :Restaurant ;
+        rdfs:comment "A restaurant specializing in Korean cuisine"@en ;
+        rdfs:label "Korean"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Luxury
+:Luxury rdf:type owl:Class ;
+        rdfs:subClassOf :Hotel ;
+        rdfs:comment "A hotel offering high-end accommodations and premium services"@en ;
+        rdfs:label "Luxury"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Metro
+:Metro rdf:type owl:Class ;
+       rdfs:subClassOf :Transport ;
+       rdfs:comment "An underground rapid transit system in an urban area"@en ;
+       rdfs:label "Metro"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Mexican
+:Mexican rdf:type owl:Class ;
+         rdfs:subClassOf :Restaurant ;
+         rdfs:comment "A restaurant specializing in Mexican cuisine"@en ;
+         rdfs:label "Mexican"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Monument
+:Monument rdf:type owl:Class ;
+          rdfs:subClassOf :Attraction ;
+          rdfs:comment "A structure build to commemorate persons or events"@en ;
+          rdfs:label "Monument"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Museum
+:Museum rdf:type owl:Class ;
+        rdfs:subClassOf :Attraction ;
+        rdfs:comment "An institution that collects and displays objects of historical, scientific, or artistic value"@en ;
+        rdfs:label "Museum"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Musical
+:Musical rdf:type owl:Class ;
+         rdfs:subClassOf :Event ;
+         rdfs:comment "An event focused on musical performances"@en ;
+         rdfs:label "Musical"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Resort
+:Resort rdf:type owl:Class ;
+        rdfs:subClassOf :Hotel ;
+        rdfs:comment "A hotel located in a vacation area offering extensive recreational facilities"@en ;
+        rdfs:label "Resort"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :restaurantLocatedIn ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :City
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :restaurant_cuisine_type ;
+                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:string
+                            ] ;
+            rdfs:comment "An establishment where meals are prepared and served to customers"@en ;
+            rdfs:label "Restaurant"@en ;
+            owl:sameAs "https://dbpedia.org/page/Restaurant" .
+
+
+###  http://www.owl-ontologies.com/turi#Taxi
+:Taxi rdf:type owl:Class ;
+      rdfs:subClassOf :Transport ;
+      rdfs:comment "A car licensed to transport passengers in return for payment"@en ;
+      rdfs:label "Taxi"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Train
+:Train rdf:type owl:Class ;
+       rdfs:subClassOf :Transport ;
+       rdfs:comment "A series of connected vehicles traveling on railways to transport passengers or goods"@en ;
+       rdfs:label "Train"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :transportLocatedIn ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :City
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :transport_company ;
+                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onDataRange xsd:string
+                           ] ;
+           rdfs:comment "A system or means of conveying people or goods from place to place"@en ;
+           rdfs:label "Transport"@en ;
+           owl:sameAs "https://dbpedia.org/page/Transport" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.owl-ontologies.com/turi#CastellToledo
+:CastellToledo rdf:type owl:NamedIndividual ,
+                        :Event ;
+               :event_date "2024-08-26T00:00:00"^^xsd:dateTime ;
+               :event_id 10 ;
+               :event_name "Fira Toledo" ;
+               :event_type "Musical" ;
+               rdfs:comment "A cultural event held in Toledo featuring exhibitions and local celebrations"@en ;
+               rdfs:label "FiraToledo" .
+
+
+###  http://www.owl-ontologies.com/turi#FiraToledo
+:FiraToledo rdf:type owl:NamedIndividual ,
+                     :Attraction ;
+            :attraction_id 5 ;
+            :attraction_name "Castell Toledo" ;
+            :attraction_rating "3.7"^^xsd:float ;
+            :attraction_type "Musical" ;
+            rdfs:comment "A historic castle located in the city of Toledo, serving as a major tourist attraction"@en ;
+            rdfs:label "CastellToledo" .
+
+
+###  http://www.owl-ontologies.com/turi#HotelDelMarToledo
+:HotelDelMarToledo rdf:type owl:NamedIndividual ,
+                            :Hotel ;
+                   :hotel_id 17 ;
+                   :hotel_name "Hotel Del Mar Toledo" ;
+                   :hotel_price_per_night "145.0"^^xsd:float ;
+                   :hotel_rating "4.3"^^xsd:float ;
+                   :hotel_stars 5 ;
+                   :hotel_type "Beach" ;
+                   rdfs:comment "A five-star hotel located in Toledo, offering accommodation and premium services"@en ;
+                   rdfs:label "HotelDelMarToledo"@en .
+
+
+###  http://www.owl-ontologies.com/turi#RestaurantGourmetToledo
+:RestaurantGourmetToledo rdf:type owl:NamedIndividual ,
+                                  :Restaurant ;
+                         :restaurant_average_price "48.0"^^xsd:float ;
+                         :restaurant_cuisine_type "Japanese" ;
+                         :restaurant_id 8 ;
+                         :restaurant_name "Restaurant Gourmet Toledo" ;
+                         :restaurant_rating "4.5"^^xsd:float ;
+                         rdfs:comment "A gourmet restaurant in Toledo known for its fine dining and local cuisine"@en ;
+                         rdfs:label "RestaurantGourmentToledo"@en .
+
+
+###  http://www.owl-ontologies.com/turi#Toledo
+:Toledo rdf:type owl:NamedIndividual ,
+                 :City ;
+        :city_id 1 ;
+        :city_location "29.8628, -4.0273" ;
+        :city_name "Toledo" ;
+        rdfs:comment "A historic city in Spain known for its rich cultural heritage and UNESCO World Heritage status"@en ;
+        rdfs:label "Toledo" .
+
+
+###  http://www.owl-ontologies.com/turi#Tramvia
+:Tramvia rdf:type owl:NamedIndividual ,
+                  :Transport ;
+         :transport_average_cost "3.61"^^xsd:float ;
+         :transport_company "Trans Toledo" ;
+         :transport_id 3 ;
+         :transport_type "Tramvia" ;
+         rdfs:comment "A tram service operating in Toledo, providing public transportation within the city"@en ;
+         rdfs:label "Tramvia" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+<http://purl.org/dc/terms/license> rdfs:comment "https://creativecommons.org/licenses/by/4.0/" ;
+                                   rdfs:label "attraction_rating" .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Attraction
+                :City
+                :Event
+                :Hotel
+                :Restaurant
+                :Transport
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#h> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#r> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#t> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Hotel ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hotel_stars ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> 5
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Luxury ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#h>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Restaurant ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :restaurant_cuisine_type ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> "Japanese"
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Japanese ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#r>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Transport ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :transport_type ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> "Metro"
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Metro ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#t>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
